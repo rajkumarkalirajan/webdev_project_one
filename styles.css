@@ -1,15 +1,78 @@
-	body	{
-		background-color: lightblue;
-	}
-	h1	{
-		color:Yellow;
-	}
-	p	{
-		font-family: verdana;
-		font-size: 20px;
-		color: black;
-	}
+	/* styles.css */
+
+/* Importing font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Imported font */
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: #333;
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f8f9fa;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Fluid Layout */
+.fluid-layout {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+/* Fixed Width Layout */
+.fixed-layout {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+		
 	
+		
 	
+		
 	
 		
